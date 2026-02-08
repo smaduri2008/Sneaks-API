@@ -8,9 +8,9 @@ const SneaksAPI = require('./controllers/sneaks.controllers.js');
 var port = process.env.PORT || 4000;
 mongoose.Promise = global.Promise;
 
-/*app.listen(port, function () {
+app.listen(port, function () {
   console.log(`Sneaks app listening on port `, port);
- });*/
+ });
 
 
 module.exports = app;
